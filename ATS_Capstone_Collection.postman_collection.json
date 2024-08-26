@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "9bfffea4-6845-4e93-bee2-fb161d61cad0",
+		"name": "ATS Capstone Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37862424"
+	},
+	"item": [
+		{
+			"name": "ats-capstone-login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "abhishek.1010@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "abhishek1010",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8001/ats/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"ats",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ats-capstone-logout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "abhishek.1010@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8001/ats/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"ats",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
