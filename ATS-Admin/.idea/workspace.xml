@@ -18,9 +18,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2l3MYgzZPw5n9LPMpdcib303Q0C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +33,8 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ATSAdmin 8072.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -39,6 +44,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Spring Boot.ATSAdmin 8074">
+    <configuration name="ATSAdmin 8072" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ATS-Admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ats.ATSAdmin" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8072" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ATSAdmin 8073" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ATS-Admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ats.ATSAdmin" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8073" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ATSAdmin 8074" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ATS-Admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ats.ATSAdmin" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8074" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ATSAdmin 8072" />
+      <item itemvalue="Spring Boot.ATSAdmin 8073" />
+      <item itemvalue="Spring Boot.ATSAdmin 8074" />
+    </list>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -56,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724404359039</updated>
       <workItem from="1724404360288" duration="3945000" />
+      <workItem from="1724643483078" duration="350000" />
     </task>
     <servers />
   </component>
