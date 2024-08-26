@@ -11,3 +11,7 @@ public interface PassengerClient {
     @GetMapping("/ats/passengers/all")
     List<PassengerDTO> getAllPassengers();
 }
+
+
+
+
